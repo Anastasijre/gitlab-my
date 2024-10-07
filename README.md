@@ -16,8 +16,11 @@
 Прикрепите в файл README.md скриншот авторизации в админке.
 
 Приложите в файл README.md текст использованных команд в GitHub.
+![Screenshot_18](https://github.com/user-attachments/assets/1aa76110-ebfd-4d73-ac2b-a2f1b1456c02)
 
+![Screenshot_19](https://github.com/user-attachments/assets/b64103a7-4511-46b7-9b33-42491e8bfdac)
 
+![Screenshot_20](https://github.com/user-attachments/assets/68ed83c6-4df3-4db8-aa9b-a22c9320677f)
 
 ### Задание 2
 
