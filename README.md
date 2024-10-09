@@ -19,10 +19,11 @@
 Выполните действия и приложите скриншоты по каждому этапу:
 
 1. Установите KVM и библиотеку libvirt.
-2.  ![Screenshot_42](https://github.com/user-attachments/assets/2eb93ca6-9cb4-4dc5-b520-a6225a1977aa)
+ ![Screenshot_42](https://github.com/user-attachments/assets/2eb93ca6-9cb4-4dc5-b520-a6225a1977aa)
 
-3. Создайте виртуальную машину. 
-4. Установите виртуальную машину. 
+3. Создайте виртуальную машину.
+ ![Screenshot_43](https://github.com/user-attachments/assets/735e2599-a936-4d6f-8a2b-1242ca57b296)
+5. Установите виртуальную машину. 
 Можете использовать пример [по ссылке](https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86/alpine-standard-3.13.5-x86.iso). Пример взят [с сайта](https://alpinelinux.org). 
 ![5202069530447309187](https://github.com/user-attachments/assets/05976909-ac47-4700-b115-1b2ec5bfd9f7)
 
