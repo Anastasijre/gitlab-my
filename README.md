@@ -24,6 +24,7 @@
 3. Создайте виртуальную машину. 
 4. Установите виртуальную машину. 
 Можете использовать пример [по ссылке](https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86/alpine-standard-3.13.5-x86.iso). Пример взят [с сайта](https://alpinelinux.org). 
+![5202069530447309187](https://github.com/user-attachments/assets/05976909-ac47-4700-b115-1b2ec5bfd9f7)
 
 В случае использования `virt-install` используйте параметр `--virt-type=kvm`.
 
