@@ -8,12 +8,13 @@
 3. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-![Screenshot_70](https://github.com/user-attachments/assets/6888d43a-611c-4047-9d73-a4b3ccc77a69)
-![Screenshot_69](https://github.com/user-attachments/assets/4d7f7359-0418-4976-b159-f9cd2e9470d3)
-![Screenshot_68](https://github.com/user-attachments/assets/ec06c0ee-df85-48c3-92a3-eac242a701b8)
-![Screenshot_67](https://github.com/user-attachments/assets/83f48fd2-db6a-4333-9b2c-2dafd4cd5515)
+![Screenshot_13](https://github.com/user-attachments/assets/eec380f6-d7fb-4eeb-811a-7f7c801e4601)
+![Screenshot_12](https://github.com/user-attachments/assets/45f2a24c-0056-48a2-8174-d638176e3816)
+![Screenshot_11](https://github.com/user-attachments/assets/13ade065-082f-4fcd-890d-58804648ee82)
+![Screenshot_16](https://github.com/user-attachments/assets/85193dcb-22dd-4465-bebf-239c13aece9f)
 
 ---
+
 
 ### Задание 2
 
@@ -23,11 +24,10 @@
 2. Перепишите сборку из задания 1 на declarative в виде кода.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-![Screenshot_66](https://github.com/user-attachments/assets/24a35034-379b-4602-a901-d82358d2fc05)
-![Screenshot_65](https://github.com/user-attachments/assets/76d2a789-47d5-421d-8fc4-bd312c312478)
-![Screenshot_64](https://github.com/user-attachments/assets/9b3d0a25-0c90-4d59-8c29-090544a8e255)
-![Screenshot_71](https://github.com/user-attachments/assets/4ab5b522-577d-4c05-a1f3-fe1fd4732774)
 
+![Screenshot_17](https://github.com/user-attachments/assets/310221a4-28bf-4e45-bd22-7df2d6228249)
+![Screenshot_19](https://github.com/user-attachments/assets/49f79f29-7b4e-4021-983d-3cd1dd0e3bba)
+![Screenshot_18](https://github.com/user-attachments/assets/20f7d5a1-dffb-4f04-9ff8-eb0c768ececa)
 ---
 
 ### Задание 3
@@ -40,6 +40,9 @@
 1. Загрузите файл в репозиторий с помощью jenkins.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+![Screenshot_22](https://github.com/user-attachments/assets/c5329fcf-e584-4622-8e33-725c306408d5)
+![Screenshot_21](https://github.com/user-attachments/assets/67d378b8-05c6-485e-a353-2bb784e86745)
+![Screenshot_20](https://github.com/user-attachments/assets/7136ee1f-419a-4c12-bb5c-98f979dcbcd7)
 
 ---
 ## Дополнительные задания* (со звёздочкой)
