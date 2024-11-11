@@ -8,11 +8,9 @@
 3. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-![Screenshot_13](https://github.com/user-attachments/assets/eec380f6-d7fb-4eeb-811a-7f7c801e4601)
-![Screenshot_12](https://github.com/user-attachments/assets/45f2a24c-0056-48a2-8174-d638176e3816)
 ![Screenshot_11](https://github.com/user-attachments/assets/13ade065-082f-4fcd-890d-58804648ee82)
 ![Screenshot_16](https://github.com/user-attachments/assets/85193dcb-22dd-4465-bebf-239c13aece9f)
-
+![Screenshot_17](https://github.com/user-attachments/assets/310221a4-28bf-4e45-bd22-7df2d6228249)
 ---
 
 
@@ -25,7 +23,7 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 
-![Screenshot_17](https://github.com/user-attachments/assets/310221a4-28bf-4e45-bd22-7df2d6228249)
+
 ![Screenshot_19](https://github.com/user-attachments/assets/49f79f29-7b4e-4021-983d-3cd1dd0e3bba)
 ![Screenshot_18](https://github.com/user-attachments/assets/20f7d5a1-dffb-4f04-9ff8-eb0c768ececa)
 ---
