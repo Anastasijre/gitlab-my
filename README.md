@@ -10,7 +10,8 @@
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 ![Screenshot_11](https://github.com/user-attachments/assets/13ade065-082f-4fcd-890d-58804648ee82)
 ![Screenshot_16](https://github.com/user-attachments/assets/85193dcb-22dd-4465-bebf-239c13aece9f)
-![Screenshot_17](https://github.com/user-attachments/assets/310221a4-28bf-4e45-bd22-7df2d6228249)
+![Screenshot_17](https://github.com/user-attachments/assets/bd7da1c1-49f3-4aa3-a8aa-8ef64e709ae4)
+
 ---
 
 
@@ -25,7 +26,8 @@
 
 
 ![Screenshot_19](https://github.com/user-attachments/assets/49f79f29-7b4e-4021-983d-3cd1dd0e3bba)
-![Screenshot_18](https://github.com/user-attachments/assets/20f7d5a1-dffb-4f04-9ff8-eb0c768ececa)
+![Screenshot_23](https://github.com/user-attachments/assets/aff14164-3451-4916-a71f-934638b2fe63)
+
 ---
 
 ### Задание 3
