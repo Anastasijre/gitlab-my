@@ -21,9 +21,12 @@ https://github.com/Anastasijre/gitlab-my/blob/ce1b435e823ecafc2c3594b415e68f7e04
 Настройте Keepalived так, чтобы он запускал данный скрипт каждые 3 секунды и переносил виртуальный IP на другой сервер, если bash-скрипт завершался с кодом, отличным от нуля (то есть порт веб-сервера был недоступен или отсутствовал index.html). Используйте для этого секцию vrrp_script
 На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
-![Screenshot_17](https://github.com/user-attachments/assets/a30e4c41-56d2-47f3-b653-689644861105)
-![Screenshot_15](https://github.com/user-attachments/assets/2a2af7c3-30b9-47fb-8ef5-df749cdb923a)
-![Screenshot_16](https://github.com/user-attachments/assets/1c861fae-a6ae-424a-9adf-ea167c7fac9e)
+![Screenshot_17](https://github.com/user-attachments/assets/f4282369-286d-48d0-ba86-8778f193c77c)
+![Screenshot_15](https://github.com/user-attachments/assets/ea2bd470-2b27-4baf-822f-0866e9aad674)
+![Screenshot_16](https://github.com/user-attachments/assets/15adfa53-04fa-469f-a863-7f227518a360)
+
+https://github.com/Anastasijre/gitlab-my/blob/557f5bfa7e42f863aeda79f05d34da30f78c7781/keepalived.conf
+https://github.com/Anastasijre/gitlab-my/blob/557f5bfa7e42f863aeda79f05d34da30f78c7781/check_webserver.sh
 
 keepalived.conf
 
