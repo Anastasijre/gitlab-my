@@ -15,5 +15,43 @@ https://github.com/Anastasijre/gitlab-my/blob/ce1b435e823ecafc2c3594b415e68f7e04
 ---
 
 ### Задание 2
+Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного файла.
+Настройте любой веб-сервер (например, nginx или simple python server) на двух виртуальных машинах
+Напишите Bash-скрипт, который будет проверять доступность порта данного веб-сервера и существование файла index.html в root-директории данного веб-сервера.
+Настройте Keepalived так, чтобы он запускал данный скрипт каждые 3 секунды и переносил виртуальный IP на другой сервер, если bash-скрипт завершался с кодом, отличным от нуля (то есть порт веб-сервера был недоступен или отсутствовал index.html). Используйте для этого секцию vrrp_script
+На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
+
+![Screenshot_17](https://github.com/user-attachments/assets/a30e4c41-56d2-47f3-b653-689644861105)
+![Screenshot_15](https://github.com/user-attachments/assets/2a2af7c3-30b9-47fb-8ef5-df749cdb923a)
+![Screenshot_16](https://github.com/user-attachments/assets/1c861fae-a6ae-424a-9adf-ea167c7fac9e)
+
+keepalived.conf
+
+global_defs {
+    enable_script_security
+}
+vrrp_script chk_webserver {
+    script "/home/test2/check_webserver.sh"
+    interval 3
+    weight -10
+}
+
+vrrp_instance VI_1 {
+        state BACKUP
+        interface enp0s3
+        virtual_router_id 15
+        priority 195
+        advert_int 1
+        authentication {
+               auth_type PASS
+               auth_pass 12345678
+        }
+        virtual_ipaddress {
+              192.168.2.150/22
+        }
+       track_script {
+              chk_webserver
+        }
+}
 
 
