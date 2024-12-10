@@ -27,34 +27,3 @@ https://github.com/Anastasijre/gitlab-my/blob/ce1b435e823ecafc2c3594b415e68f7e04
 
 https://github.com/Anastasijre/gitlab-my/blob/557f5bfa7e42f863aeda79f05d34da30f78c7781/keepalived.conf
 https://github.com/Anastasijre/gitlab-my/blob/557f5bfa7e42f863aeda79f05d34da30f78c7781/check_webserver.sh
-
-keepalived.conf
-
-global_defs {
-    enable_script_security
-}
-vrrp_script chk_webserver {
-    script "/home/test2/check_webserver.sh"
-    interval 3
-    weight -10
-}
-
-vrrp_instance VI_1 {
-        state BACKUP
-        interface enp0s3
-        virtual_router_id 15
-        priority 195
-        advert_int 1
-        authentication {
-               auth_type PASS
-               auth_pass 12345678
-        }
-        virtual_ipaddress {
-              192.168.2.150/22
-        }
-       track_script {
-              chk_webserver
-        }
-}
-
-
